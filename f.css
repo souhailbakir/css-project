@@ -1,0 +1,36 @@
+.e1 {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    height: 10vh;
+    justify-content: space-between;
+    gap: 20px; 
+}
+#jk{
+    background-color: brown;
+    color :blue;
+   }
+.m {
+  background-color: #3700ff;       /* Green background */
+  color: white;                     /* White text */
+  padding: 12px 24px;              /* Padding */
+  border: none;                    /* Remove border */
+  border-radius: 8px;              /* Rounded corners */
+  font-size: 16px;                 /* Font size */
+  font-weight: bold;              /* Bold text */
+  cursor: pointer;                /* Pointer on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.m:hover {
+  background-color: #28004e;       /* Darker green on hover */
+  transform: scale(1.03);          /* Slight zoom */
+}
+
+.m:active {
+  background-color: #11005c;       /* Even darker on click */
+  transform: scale(0.98);          /* Press-down effect */
+}
