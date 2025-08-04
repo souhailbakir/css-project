@@ -1,16 +1,19 @@
+body {
+    background-color: red;
+    }
+.intro {
+    font-size: 32px;
+    color: black;
+    background-color: red;
+}
+#titre { 
+     font-size: 48px;
+     color: white;
+}
 .e1 {
     background-color: black;
     color: aliceblue;
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically (optional) */
-    height: 10vh;
-    justify-content: space-between;
-    gap: 20px; 
-}
-#jk{
-    background-color: brown;
-    color :blue;
+    
    }
 .m {
   background-color: #3700ff;       /* Green background */
@@ -33,4 +36,7 @@
 .m:active {
   background-color: #11005c;       /* Even darker on click */
   transform: scale(0.98);          /* Press-down effect */
+}
+.e2 {
+    background-color: blue;
 }
